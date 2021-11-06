@@ -1,6 +1,6 @@
 # pymatrices
 A Python 3.x package to implement Matrices and almost all its Properties.
-It is also available on [GitHub](https://github.com/Programmin-in-Python/PyMatrices)
+It is also available on [PyPI](https://pypi.org/project/pymatrices/0.0.1/)
 
 ## Installation
 ***Please Note :- Requires Python Version 3.x***
