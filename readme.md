@@ -37,9 +37,9 @@ $ python3 -m pip install pymatrices
 - `<matrix object>.order` returns the order of the matrix in a **Tuple** in the format of `(rows, columns)`.
 - `<matrix object>.transpose` returns the transpose of the matrix, which is another matrix object.
 - All the Arithmetic Operations can be done by using their usual symbols.
-	- However, two types of Multiplication can be done :-
-		- `<matrix.object>*(int or float)` returns a Matrix with the `int` multiplied with each element of the matrix.
-		- `<matrix object>*<matrix object>` returns a Matrix which is the product of the 2 matrices.
+	- However, two types of Product can be done :-
+		- Scalar Product : `<matrix.object>*(int or float)` returns a Matrix with the `int` multiplied with each element of the matrix.
+		- Vector Product : `<matrix object>*<matrix object>` returns a Matrix which is the product of the 2 matrices.
 - `<matrix object>.primaryDiagonalValues` returns a List which has the **Primany Diagonal Elements** of the Matrix.
 - `<matrix object>.secondaryDiagonalValues` returns a List which has the **Secondary Diagonal Elements** of the Matrix.
 - `<matrix object>.valueAt(row, column)` returns the **value** at the given row and column. **Please Note that here the `row` and `column` are _normal_ indices and not _python_ respective indices i.e '1' points to the first element**. _Refer Sample Implementation_
